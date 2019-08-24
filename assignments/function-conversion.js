@@ -11,14 +11,15 @@ function anotherFunction(param) {
 };
 
 // step 2: function expression
-let anotherFunction = function (param) {
+let anotherFunction2 = function (param) {
    return param;
 };
 
 //step 3: arrow function
-let anotherFunction = (param) => {
+let anotherFunction3 = (param) => {
    return param;
 };
+
 anotherFunction("Example");
 
 let add = (param1, param2) => {
